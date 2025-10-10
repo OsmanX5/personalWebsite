@@ -1,0 +1,25 @@
+#experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.experience-card{
+
+}
+.experience-card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+.experience-card-header-title{
+    display: flex;
+    flex-direction: row;
+}
+.experience-card-company-icon{
+    width: 32px;
+    height: 32px;
+}

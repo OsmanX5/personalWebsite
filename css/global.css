@@ -1,0 +1,42 @@
+:root{
+    --background-color : #161513;
+    --primary-color : #FFFFFF;
+    --primary-gradient: linear-gradient(to right, #FF8660 0%, #9A33FF 100%);
+    --secondary-text-color : #C5C5C5;
+    --orange-gradient: linear-gradient(to right,#FF8660 0%, #D5491D 100%);
+    --blue-gradient:linear-gradient(to right,#6092ff 0%, #1d42d5 100%);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+p{
+    color: var(--secondary-text-color);
+    font-size: calc(18/16 * 1rem);
+    line-height: 1.6;
+}
+h2{
+    font-weight: 900;
+    font-size: calc(35/16 * 1rem);
+
+}
+.gradient-text {
+    background: var(--primary-gradient);
+    background-clip: text;
+    color: transparent;
+}
+.orange-gradient-text{
+    background: var(--orange-gradient);
+    background-clip: text;
+    color: transparent;
+}
+.blue-gradient-text{
+    background: var(--blue-gradient);
+    background-clip: text;
+    color: transparent;
+}
+.gradient-background {
+    background: var(--primary-gradient);
+}
+
